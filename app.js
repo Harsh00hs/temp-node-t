@@ -1,11 +1,7 @@
-const amount = 12
+const _ = require('lodash')
 
-let total = 0
-for (let i = 0; i < amount; i++) {
-    total += 5
-}
+const a = [1, [2, [3, [4, [5]]]]]
 
-console.log(total);
-
-// exports = {amount, total};
-// const name = require('./app.js');
+const flatitem = _.flattenDeep(a)
+console.log(flatitem) // [1, 2, 3, 4,
+console.log('hello there');
