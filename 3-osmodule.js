@@ -1,0 +1,15 @@
+const os = require('os')
+
+const user = os.userInfo()
+console.log(user);
+
+console.log('the system uptime ' + os.uptime() + 'seconds');
+
+const curros = {
+    name: os.type(),
+    release: os.release(),
+    totalMem: os.totalmem(),
+    freeMen: os.freemem(),
+}
+
+console.log(curros);
