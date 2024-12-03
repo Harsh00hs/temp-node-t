@@ -6,7 +6,9 @@
   "version": "1.0.0",
   "main": "1-intro.js",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "express": "^4.21.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.3"
   },
   "scripts": {
     "start": "nodemon app.js"
